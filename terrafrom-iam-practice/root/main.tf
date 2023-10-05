@@ -7,4 +7,3 @@ module "user" {
     attachment_name   = var.policy_attachment_name_list[count.index]
     attach_policy_arn = var.arn_policy_list[count.index]
 }
-

@@ -10,3 +10,5 @@ resource "aws_iam_policy_attachment" "iam_user_policy" {
     users       = [aws_iam_user.iam_user.name]
     policy_arn  = var.attach_policy_arn
 }
+
+
